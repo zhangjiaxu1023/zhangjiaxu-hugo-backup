@@ -2,6 +2,7 @@ name: Build
 
 env:
   NODE_VERSION: '22'
+  HUGO_SECURITY_EXEC_ALLOW: '^dart-sass$|^go$|^git$|^node$|^postcss$|^tailwindcss$'
 
 on:
   # Standalone trigger for PR validation
